@@ -1,83 +1,49 @@
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+# Kata Gilded Rose React/TS
 
-# Gilded Rose Kata - Partial Store Management
+## Réalisé sur React/Typescript
+* Partie React récupérée du repository suivant : https://github.com/ahmettekeli/GildedRose
+* Kata original : https://github.com/emilybache/GildedRose-Refactoring-Kata
 
-## Build with Typescript - React - [Live Demo](https://gildedrose.netlify.app/)
+## Description
+Bonjour et bienvenue dans l'équipe de la Rose dorée.
 
-## Available Scripts
+Comme vous le savez, notre petite taverne située à proximité d'une cité importante est dirigée par l'aubergiste amicale Allison.
 
-In the project directory, you can run:
+Nous achetons et vendons uniquement les meilleurs produits.
+Malheureusement, la qualité de nos marchandises se dégrade constamment à l'approche de leur date de péremption.
+
+Un système a été mis en place pour mettre à jour notre inventaire.
+Il a été développé par Leeroy, une personne pleine de bon sens qui est partie pour de nouvelles aventures.
+
+Votre mission est **d'ajouter une nouvelle fonctionnalité à notre système** pour que nous puissions commencer à vendre un nouveau type de produits.
+
+Mais d'abord, laissez-moi vous présenter notre système :
+
+- Tous les éléments ont une valeur `sellIn` qui désigne le nombre de jours restant pour vendre l'article.
+- Tous les articles ont une valeur `quality` qui dénote combien l'article est précieux.
+- À la fin de chaque journée, notre système diminue ces deux valeurs pour chaque produit.
+
+
+## Votre mission !
+Nous avons récemment signé un partenariat avec un fournisseur de produit invoqué ("Conjured").\
+Cela nécessite une mise à jour de notre système :
+
+- Les éléments "Conjured" voient leur qualité se dégrader de deux fois plus vite que les objets normaux.
+
+**Vos objectifs sont donc les suivants :**
+1. Identifier la méthode principale de l'application qui modifie les caractéristiques de nos produits.
+2. Etablir une analyse du code existant et trouver une solution pour implémenter notre nouvelle fonctionnalité.
+3. Implémenter notre nouvelle fonctionnalité sans altérer les règles déjà en place dans l'application.
+3. Faire ressortir les règles métiers de la méthode principale de l'application.
+
+## Utiliser le projet 
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Exécute l'application en mode développement.\
+Ouvrir [http://localhost:3000](http://localhost:3000) pour la voir dans le navigateur.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-## About The Project
-
-<p>This is a sample store management project built around the idea of Gilded Rose Kata, the kata is refactored and a dedicated UI has been implemented to show items in the store, qualities, remaining days and item types.</p>
-
-### Prerequisites
-
-The tools/software below are needed to build/extend this project.
-
-- [node](https://nodejs.org/en/)
-
-- npm
-
-```sh
-npm install npm@latest -g
-```
-
-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Editing/Extending/Usage
-
-1. Clone the repo
-
-```sh
-git clone https://github.com/ahmettekeli/GildedRose.git
-```
-
-2. Install NPM packages
-
-```sh
-npm install
-```
-
-3. Make changes and improve
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are <strong>greatly appreciated<strong>.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-Ahmet Tekeli - [@ahmettekeli3](https://twitter.com/ahmettekeli3) - ahmettekeli1991@hotmail.com
-
-Project Link: [https://github.com/ahmettekeli/GildedRose](https://github.com/ahmettekeli/GildedRose)
-
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/ahmettekeli/HumanPoseDetection/blob/master/license.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/tekeliahmet/
-[product-screenshot]: https://github.com/ahmettekeli/GildedRose/
+Exécute les tests de l'application
